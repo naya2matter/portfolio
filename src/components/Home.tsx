@@ -46,7 +46,7 @@ function Home() {
       </div>
 
       <div id="contact" ref={sectionRefs.contact}  className=" dark:bg-dark-mainBackground dark:text-dark-mainText">
-        <ContectUs ref={sectionRefs.contact } content="hello contect us"/>
+        <ContectUs ref={sectionRefs.contact } />
       </div>
       
     </div>
