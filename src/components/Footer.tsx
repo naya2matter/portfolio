@@ -10,13 +10,13 @@ const Footer = () => {
                 <p>@ 2025. All Rights Reserved</p>
                 <p>Develpoment by Naya</p>
                 <div className="flex justify-center items-center gap-3.5">
-                    <a href="">
+                    <a href="https://www.facebook.com/naya.matter" target="blank">
                         <FaFacebook className="text-[#0C96E2]"size={25}/>
                     </a>
-                    <a href="">
+                    <a href="https://www.instagram.com/naya.matter" target="blank">
                         <AiFillInstagram className="text-[#0C96E2]" size={25}/>
                     </a>
-                    <a href="">
+                    <a href="https://t.me/nayamatter" target="blank">
                         <RiTelegram2Fill className="text-[#0C96E2]" size={25}/>
                     </a>
                 </div>

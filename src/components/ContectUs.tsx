@@ -6,9 +6,6 @@ import type { InfornationCardProps } from "./ContectInfornationCard"
 import ContectInfornationCard from "./ContectInfornationCard"
 import { TelegramSender } from "./TelegramSender"
 
-interface conentProp{
-    content:string
-}
 const infornationCard:InfornationCardProps[] =[
     {
         icon: <FiPhoneCall />,
@@ -23,7 +20,7 @@ const infornationCard:InfornationCardProps[] =[
         title:"Address",
         data:"Al-Swaida_Syria"
     }]
-const ContectUs = forwardRef<HTMLDivElement, conentProp>(({ content }, ref)=> {
+const ContectUs = forwardRef<HTMLDivElement>((_, ref)=> {
     const formRef = useRef<HTMLFormElement>(null);
     const { sendMessage, loading, error, success } = TelegramSender();
 
