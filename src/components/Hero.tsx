@@ -30,7 +30,7 @@ function Hero({ title, suptitle, btn }: heroItems) {
           </a>
         </div>
 
-        <img src="./assets/img/naya.png" alt="naya image" className="w-[200px] md:w-[447px]   h-auto object-cover  " />
+        <img src="./assets/img/naya-photo.png" alt="naya image" className="w-[200px] md:w-[447px]   h-auto object-cover  " />
       </div>
     </div>
   );
