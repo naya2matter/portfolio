@@ -96,4 +96,32 @@ export const allProjects: Project[] = [{
                 history:"3/8/2025",
                 repo:"https://github.com/naya2matter/state-management.git"
 
+        },{
+                image:"/assets/img/K2skiingHero.png",
+                imageScreen:"/assets/img/K2skiingScreen.png",
+                Demo:"https://k2skiing-mauve.vercel.app",
+                title:"K2skiing",
+                languages:" HTML / CSS / Responsive Design",
+                details:`K2Skiing is a fully responsive web application built with modern front-end technologies, featuring a clean UI and smooth navigation flow.
+                        The project includes modular components optimized for performance and scalability.
+                        Dynamic sections are structured to highlight packages, guides, and updates with clear call-to-action elements.
+                        The layout uses precise spacing, grid organization, and image integration to enhance visual clarity and UX consistency.
+                        The site is deployed on Vercel, ensuring fast loading times and a reliable production environment.`,
+                history:"3/8/2025",
+                repo:"https://github.com/naya2matter/K2skiing.git"
+
+},{
+                image:"/assets/img/TrippyHero.png",
+                imageScreen:"/assets/img/TrippyScreen.png",
+                Demo:"https://trippy-wheat.vercel.app",
+                title:"trippy",
+                languages:" Redux  / routeApp / typeScript / tailwindCss / Responsive Design / Vite ",
+                details:`Trippy is a multi-page React application built with TypeScript and Vite, using React Router to manage page-level navigation with smooth transitions.
+                        Each page is structured as an independent component, enabling clean routing and clear separation between sections like Home, About, Services, and Contact.
+                        The project emphasizes responsive UI design with reusable components to maintain consistency across all routes.
+                        Static assets and layout elements are optimized for performance, helping the site load quickly despite having multiple screens.
+                        The application is deployed on Vercel, providing fast global hosting and seamless CI/CD integration.`,
+                history:"3/8/2025",
+                repo:"https://github.com/naya2matter/Trippy.git"
+
 }]
